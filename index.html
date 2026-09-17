@@ -1,1 +1,437 @@
-PLACEHOLDER
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horizon Capital | Investir avec confiance</title>
+<meta name="description" content="Horizon Capital vous accompagne pour faire fructifier votre épargne grâce à des solutions d'investissement transparentes, sécurisées et adaptées à vos objectifs.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="header-inner container">
+    <a href="#top" class="logo">
+      <i class="fa-solid fa-chart-line"></i>
+      <span>Horizon <em>Capital</em></span>
+    </a>
+    <nav class="nav" id="mainNav">
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#offres">Nos offres</a></li>
+        <li><a href="#pourquoi">Pourquoi nous</a></li>
+        <li><a href="#process">Comment ça marche</a></li>
+        <li><a href="#temoignages">Témoignages</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-cta">
+      <a href="#contact" class="btn btn-primary">Commencer à investir</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="eyebrow"><i class="fa-solid fa-shield-halved"></i> Plateforme régulée &amp; sécurisée</span>
+        <h1>Faites fructifier votre capital, <span class="accent">en toute confiance</span>.</h1>
+        <p>Horizon Capital conçoit des solutions d'investissement claires et diversifiées pour vous aider à atteindre vos objectifs financiers, quel que soit votre profil de risque.</p>
+        <div class="hero-actions">
+          <a href="#offres" class="btn btn-primary btn-lg">Découvrir nos offres</a>
+          <a href="#process" class="btn btn-ghost btn-lg">Comment ça marche <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <ul class="hero-trust">
+          <li><i class="fa-solid fa-lock"></i> Fonds ségrégués</li>
+          <li><i class="fa-solid fa-user-shield"></i> KYC / AML conforme</li>
+          <li><i class="fa-solid fa-headset"></i> Conseiller dédié</li>
+        </ul>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-header">
+          <span>Simulateur rapide</span>
+          <i class="fa-solid fa-calculator"></i>
+        </div>
+        <div class="field">
+          <label for="amount">Montant à investir</label>
+          <input type="range" id="amount" min="500" max="100000" step="500" value="10000">
+          <div class="field-value"><span id="amountValue">10 000</span> €</div>
+        </div>
+        <div class="field">
+          <label for="years">Durée (années)</label>
+          <input type="range" id="years" min="1" max="20" step="1" value="5">
+          <div class="field-value"><span id="yearsValue">5</span> ans</div>
+        </div>
+        <div class="field">
+          <label for="rate">Rendement annuel estimé</label>
+          <input type="range" id="rate" min="2" max="12" step="0.5" value="6">
+          <div class="field-value"><span id="rateValue">6</span> %</div>
+        </div>
+        <div class="hero-result">
+          <span>Capital estimé</span>
+          <strong id="resultValue">13 382 €</strong>
+        </div>
+        <p class="hero-disclaimer">Simulation indicative, non contractuelle. Les performances passées ne préjugent pas des performances futures.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat">
+        <strong data-count="480">0</strong><span>M€ d'actifs gérés</span>
+      </div>
+      <div class="stat">
+        <strong data-count="12500">0</strong><span>Investisseurs actifs</span>
+      </div>
+      <div class="stat">
+        <strong data-count="14">0</strong><span>Années d'expérience</span>
+      </div>
+      <div class="stat">
+        <strong data-count="98">0</strong><span>% clients satisfaits</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="apropos">
+    <div class="container about-grid">
+      <div class="about-media" aria-hidden="true">
+        <div class="about-media-box">
+          <i class="fa-solid fa-building-columns"></i>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="section-eyebrow">À propos de nous</span>
+        <h2>Une gestion patrimoniale humaine, appuyée par la technologie</h2>
+        <p>Depuis notre création, Horizon Capital accompagne des particuliers et des professionnels dans la construction d'un patrimoine durable. Nous combinons expertise financière, diversification internationale et outils de suivi en temps réel pour donner à chacun les moyens d'investir sereinement.</p>
+        <div class="about-points">
+          <div class="about-point">
+            <i class="fa-solid fa-scale-balanced"></i>
+            <div>
+              <h3>Transparence totale</h3>
+              <p>Frais clairs, reporting détaillé et aucun frais caché.</p>
+            </div>
+          </div>
+          <div class="about-point">
+            <i class="fa-solid fa-diagram-project"></i>
+            <div>
+              <h3>Diversification intelligente</h3>
+              <p>Actions, obligations, immobilier et actifs alternatifs.</p>
+            </div>
+          </div>
+          <div class="about-point">
+            <i class="fa-solid fa-people-arrows"></i>
+            <div>
+              <h3>Accompagnement dédié</h3>
+              <p>Un conseiller attitré pour construire votre stratégie.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFRES -->
+  <section class="section section-alt" id="offres">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Nos offres</span>
+        <h2>Un plan pour chaque profil d'investisseur</h2>
+        <p>Choisissez la formule adaptée à vos objectifs et à votre tolérance au risque. Vous pouvez évoluer entre les plans à tout moment.</p>
+      </div>
+      <div class="plans">
+        <article class="plan-card">
+          <h3>Essentiel</h3>
+          <p class="plan-desc">Idéal pour démarrer en douceur avec un risque maîtrisé.</p>
+          <div class="plan-price"><span>3 – 5%</span> rendement annuel cible</div>
+          <ul class="plan-features">
+            <li><i class="fa-solid fa-check"></i> Investissement dès 500 €</li>
+            <li><i class="fa-solid fa-check"></i> Obligations &amp; fonds monétaires</li>
+            <li><i class="fa-solid fa-check"></i> Retrait sous 48h</li>
+            <li><i class="fa-solid fa-check"></i> Reporting mensuel</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Choisir ce plan</a>
+        </article>
+        <article class="plan-card featured">
+          <span class="plan-badge">Le plus populaire</span>
+          <h3>Croissance</h3>
+          <p class="plan-desc">Un équilibre entre performance et maîtrise du risque.</p>
+          <div class="plan-price"><span>6 – 9%</span> rendement annuel cible</div>
+          <ul class="plan-features">
+            <li><i class="fa-solid fa-check"></i> Investissement dès 2 500 €</li>
+            <li><i class="fa-solid fa-check"></i> Portefeuille actions &amp; obligations</li>
+            <li><i class="fa-solid fa-check"></i> Rééquilibrage automatique</li>
+            <li><i class="fa-solid fa-check"></i> Conseiller dédié</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Choisir ce plan</a>
+        </article>
+        <article class="plan-card">
+          <h3>Patrimoine</h3>
+          <p class="plan-desc">Pour les investisseurs avertis visant la performance long terme.</p>
+          <div class="plan-price"><span>10 – 14%</span> rendement annuel cible</div>
+          <ul class="plan-features">
+            <li><i class="fa-solid fa-check"></i> Investissement dès 10 000 €</li>
+            <li><i class="fa-solid fa-check"></i> Actifs alternatifs &amp; immobilier</li>
+            <li><i class="fa-solid fa-check"></i> Stratégie sur mesure</li>
+            <li><i class="fa-solid fa-check"></i> Gestionnaire de portefeuille privé</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Choisir ce plan</a>
+        </article>
+      </div>
+      <p class="plans-disclaimer"><i class="fa-solid fa-triangle-exclamation"></i> Investir comporte des risques de perte en capital. Les rendements cibles ne sont pas garantis.</p>
+    </div>
+  </section>
+
+  <!-- POURQUOI NOUS -->
+  <section class="section" id="pourquoi">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Pourquoi Horizon Capital</span>
+        <h2>Des avantages pensés pour votre tranquillité d'esprit</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature">
+          <i class="fa-solid fa-shield-halved"></i>
+          <h3>Sécurité des fonds</h3>
+          <p>Vos actifs sont conservés auprès de dépositaires agréés et ségrégués de nos fonds propres.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-chart-pie"></i>
+          <h3>Reporting en temps réel</h3>
+          <p>Suivez la performance de votre portefeuille depuis votre espace client 24h/24.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-hand-holding-dollar"></i>
+          <h3>Frais transparents</h3>
+          <p>Une grille tarifaire simple, sans frais d'entrée ni commission cachée.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-user-tie"></i>
+          <h3>Experts dédiés</h3>
+          <p>Une équipe de conseillers certifiés pour vous guider à chaque étape.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-mobile-screen"></i>
+          <h3>Espace client mobile</h3>
+          <p>Gérez vos investissements depuis votre téléphone, où que vous soyez.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-globe"></i>
+          <h3>Diversification mondiale</h3>
+          <p>Accédez à des marchés internationaux pour réduire votre exposition au risque.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section section-alt" id="process">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Comment ça marche</span>
+        <h2>Investir en 4 étapes simples</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Créez votre compte</h3>
+          <p>Inscription en ligne en quelques minutes, sans engagement.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Vérifiez votre identité</h3>
+          <p>Un processus KYC rapide et sécurisé, conforme à la réglementation.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Choisissez votre plan</h3>
+          <p>Sélectionnez l'offre adaptée à vos objectifs et déposez vos fonds.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <h3>Suivez votre croissance</h3>
+          <p>Consultez vos performances en temps réel depuis votre espace client.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEMOIGNAGES -->
+  <section class="section" id="temoignages">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Témoignages</span>
+        <h2>Ce que disent nos investisseurs</h2>
+      </div>
+      <div class="testimonials">
+        <figure class="testimonial">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <blockquote>« Une plateforme claire et un conseiller toujours disponible. J'ai enfin une vision précise de mon épargne. »</blockquote>
+          <figcaption>— Amélie R., cliente depuis 3 ans</figcaption>
+        </figure>
+        <figure class="testimonial">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <blockquote>« Le simulateur m'a aidé à comprendre l'impact de la durée sur mes rendements. Interface très intuitive. »</blockquote>
+          <figcaption>— Karim B., investisseur particulier</figcaption>
+        </figure>
+        <figure class="testimonial">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+          <blockquote>« Reporting mensuel très détaillé et équipe réactive. Je recommande pour un premier investissement. »</blockquote>
+          <figcaption>— Julie M., cliente depuis 1 an</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-alt" id="faq">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Questions fréquentes</span>
+        <h2>Tout ce qu'il faut savoir avant d'investir</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Quel est le montant minimum pour commencer ?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer"><p>Vous pouvez démarrer dès 500 € avec notre plan Essentiel. Aucun montant maximum n'est imposé.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Mes fonds sont-ils garantis ?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer"><p>Comme tout investissement, un risque de perte en capital existe. Vos actifs sont toutefois conservés auprès de dépositaires agréés, ségrégués de nos fonds propres.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Puis-je retirer mon argent à tout moment ?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer"><p>Oui, les retraits sont traités sous 48h ouvrées selon le plan choisi, sans pénalité de sortie.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Comment sont calculés les frais ?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer"><p>Nos frais de gestion annuels varient entre 0,5% et 1,2% selon le plan, sans frais d'entrée ni de sortie.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <span class="section-eyebrow">Contact</span>
+        <h2>Prêt à faire fructifier votre épargne ?</h2>
+        <p>Échangez gratuitement avec l'un de nos conseillers pour définir la stratégie d'investissement adaptée à votre profil.</p>
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-phone"></i> +33 1 23 45 67 89</li>
+          <li><i class="fa-solid fa-envelope"></i> contact@horizoncapital.example</li>
+          <li><i class="fa-solid fa-location-dot"></i> 12 avenue des Investisseurs, 75008 Paris</li>
+        </ul>
+        <div class="social-icons">
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="budget">Montant envisagé</label>
+          <select id="budget" name="budget">
+            <option>500 € – 2 500 €</option>
+            <option>2 500 € – 10 000 €</option>
+            <option>10 000 € – 50 000 €</option>
+            <option>Plus de 50 000 €</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Parlez-nous de vos objectifs d'investissement..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Envoyer ma demande</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#top" class="logo">
+        <i class="fa-solid fa-chart-line"></i>
+        <span>Horizon <em>Capital</em></span>
+      </a>
+      <p>Des solutions d'investissement transparentes pour construire votre avenir financier.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#offres">Nos offres</a></li>
+        <li><a href="#process">Comment ça marche</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Ressources</h4>
+      <ul>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#temoignages">Témoignages</a></li>
+        <li><a href="#">Mentions légales</a></li>
+        <li><a href="#">Politique de confidentialité</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <p>Recevez nos analyses de marché chaque mois.</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" placeholder="Votre email" required>
+        <button type="submit" aria-label="S'abonner"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <p>&copy; 2026 Horizon Capital. Tous droits réservés.</p>
+    <p class="risk-disclaimer">Avertissement : investir comporte des risques, y compris la perte totale du capital investi. Ce site est un site vitrine à but de démonstration et ne constitue pas un conseil en investissement.</p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Retour en haut">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
